@@ -1,0 +1,10 @@
+Add Location icon to trip name
+Unify DB classes
+--unify header/footer.
+--Email sending.
+Search feature
+--Apply bootstrap
+get weather CURL.
+File upload?
+
+Upload.

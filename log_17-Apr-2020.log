@@ -1,0 +1,28 @@
+April 17, 2020, 6:33 am : Cont PROD. 
+April 17, 2020, 6:34 am : Connection failed: PDOException: SQLSTATE[HY000] [2002] Connection timed out in /home/mbwasico/travel.mbwasi.com/db.php:43
+Stack trace:
+#0 /home/mbwasico/travel.mbwasi.com/db.php(43): PDO->__construct('mysql:host=sql3...', 'mseet_25486586', 'OEevdDjSz5PW', Array)
+#1 /home/mbwasico/travel.mbwasi.com/index.php(20): getConn()
+#2 {main}
+April 17, 2020, 6:38 am : Cont PROD. 
+April 17, 2020, 6:38 am : Connection failed: PDOException: SQLSTATE[HY000] [2002] Connection timed out in /home/mbwasico/travel.mbwasi.com/db.php:43
+Stack trace:
+#0 /home/mbwasico/travel.mbwasi.com/db.php(43): PDO->__construct('mysql:host=sql3...', 'mseet_25486586', 'OEevdDjSz5PW', Array)
+#1 /home/mbwasico/travel.mbwasi.com/index.php(20): getConn()
+#2 {main}
+April 17, 2020, 6:40 am : Cont PROD. 
+April 17, 2020, 6:40 am : Connected to DB. 
+April 17, 2020, 6:40 am : Cont PROD. 
+April 17, 2020, 6:40 am : Connected to DB. 
+April 17, 2020, 6:40 am : Connected to DB. 
+April 17, 2020, 6:40 am : Cont PROD. 
+April 17, 2020, 6:41 am : Cont PROD. 
+April 17, 2020, 6:41 am : Register Query: INSERT INTO users (first_name, last_name, email, password_hash, phone, dob,role,email_verification_code,status)
+          VALUES('roman', 'mbwasi', 'romanmbwasi@gmail.com', '$2y$10$eKN4c7cU8iTDnbp2.kDkjO.AgNgwxlNJvA3.cWyBmq7BpJcHbR1wm', '12345', '2020-04-08','user','0E73579EAA6F44AB92F86BEC7B7452CC','VERIFY')
+April 17, 2020, 6:47 am : Cont PROD. 
+April 17, 2020, 6:47 am : Connected to DB. 
+April 17, 2020, 6:47 am : Cont PROD. 
+April 17, 2020, 6:49 am : Cont PROD. 
+April 17, 2020, 6:49 am : Register Query: INSERT INTO users (first_name, last_name, email, password_hash, phone, dob,role,email_verification_code,status)
+          VALUES('Roman', 'Mbwasi', 'romanmbwasi@gmail.com', '$2y$10$sqwQGV1tgCS8Fz2HxLhA0.leCtJsafiSNOomzdKJueT5M7oTZhCUe', '123454', '2020-04-08','user','130CA6F40A93470694AACDAE5A170A0F','VERIFY')
+April 17, 2020, 6:49 am : Email result: 1
